@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mucan Hub - Key System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">
+                <img src="https://tr.rbxcdn.com/180DAY-109192347956156" alt="Mucan Hub" onerror="this.style.display='none'">
+            </div>
+            <h1>Mucan HUB</h1>
+            <p class="subtitle">Key System</p>
+            
+            <div id="status" class="status"></div>
+            
+            <div id="step-1" class="step">
+                <h2>Step 1: Dapatkan Key</h2>
+                <p>Selesaikan iklan untuk mendapatkan key akses.</p>
+                <button id="btn-get-key" class="btn btn-primary">
+                    🎁 Dapatkan Key Sekarang
+                </button>
+                <div class="note">
+                    Setelah selesai, kembali ke halaman ini dan klik "Cek Key"
+                </div>
+            </div>
+            
+            <div id="step-2" class="step hidden">
+                <h2>Step 2: Cek Key</h2>
+                <p>Klik tombol di bawah untuk verifikasi key kamu.</p>
+                <button id="btn-check-key" class="btn btn-primary">
+                    ✅ Cek Key
+                </button>
+            </div>
+            
+            <div id="step-3" class="step hidden">
+                <h2>Step 3: Salin Key</h2>
+                <p>Key kamu sudah aktif! Salin dan masukkan ke script.</p>
+                <div class="key-box">
+                    <input type="text" id="key-display" readonly>
+                    <button id="btn-copy" class="btn btn-copy" title="Copy">📋</button>
+                </div>
+                <p class="key-info">Simpan key ini baik-baik. Jangan share ke orang lain!</p>
+            </div>
+            
+            <div class="footer">
+                <p>© 2026 Mucan Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
